@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+    .body{
+        background-color: black;
+        }
+          .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+          }
+          .loading-iamge{
+            height: 200px;
+            width: 200px;
+          }
+          
+        </style>      
+  </head>
+
+  <body>
+    <div class="loading">
+      <img class="loading-image" src="components/images/roboticslanding.jpg" alt="">
+      <br>
+      <h1>Robotics club MANIT</h1>
+
+    </div>
+    <script>
+      
+      setTimeout(function() {
+        
+        window.location.href = "components/landing.html";
+      }, 3000);
+    </script>
+    
+</body>
+</html>
